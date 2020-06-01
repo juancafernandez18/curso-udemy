@@ -10,7 +10,7 @@ Acciones Disponibles:
     -Login
 
 """)
-hazEl = acciones.Acciones()
+hazEl = acciones.Acciones() #creo el objeto hasEl que lo tengo en el paquete acciones
 accion= input("Que desea hacer ?")
 
 if accion == 'registro':
@@ -19,3 +19,5 @@ if accion == 'registro':
 elif accion == "login":
     hazEl.login()
     
+
+#cambio algo en el login, para tener en la rama login
